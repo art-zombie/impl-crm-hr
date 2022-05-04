@@ -9,10 +9,6 @@ http://localhost:8084/hr/workers
 ```
 http://localhost:8084/hr/workers/n
 ```
-- вывести работающего работника c должностью n
-```
-http://localhost:8084/hr/workers/working/n
-```
 - вывести всех работающих работников должности n
 ```
 http://localhost:8084/hr/workers/working/n
