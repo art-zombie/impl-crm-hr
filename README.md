@@ -1,6 +1,6 @@
 # WORKERS
 ---
-###GET
+### GET
 - вывести всех работников
 ```
 http://localhost:8084/hr/workers
@@ -13,7 +13,7 @@ http://localhost:8084/hr/workers/n
 ```
 http://localhost:8084/hr/workers/working/n
 ```
-###POST
+### POST
 * добавить работника (json)
 ```
 http://localhost:8084/hr/workers
@@ -29,7 +29,7 @@ http://localhost:8084/hr/workers
   "isWorking": true
 }
 ```
-###PUT
+### PUT
 - корректировать n-ого работника (json)
 ```
 http://localhost:8084/hr/workers/n
@@ -45,7 +45,7 @@ http://localhost:8084/hr/workers/n
   "isWorking": x
 }
 ```
-###DELETE
+### DELETE
 - удалить n-ого работника
 ```
 http://localhost:8084/hr/workers/n
@@ -53,7 +53,7 @@ http://localhost:8084/hr/workers/n
 ---
 # SHEDULES
 ---
-###GET
+### GET
 - вывести все расписания
 ```
 http://localhost:8084/hr/shedules
@@ -62,7 +62,7 @@ http://localhost:8084/hr/shedules
 ```
 http://localhost:8084/hr/shedules/n
 ```
-###POST
+### POST
 - добавить расписание (json)
 ```
 http://localhost:8084/hr/shedules
@@ -75,7 +75,7 @@ http://localhost:8084/hr/shedules
     "vacationSchedule" : 7
 }
 ```
-###PUT
+### PUT
 - корректировать n-ое расписание (json)
 ```
 http://localhost:8084/hr/shedules/n
@@ -88,7 +88,7 @@ http://localhost:8084/hr/shedules/n
     "vacationSchedule" : x
 }
 ```
-###DELETE
+### DELETE
 - удалить n-ое расписание
 ```
 http://localhost:8084/hr/shedules/n
@@ -96,7 +96,7 @@ http://localhost:8084/hr/shedules/n
 ---
 # POSITIONS
 ---
-###GET
+### GET
 - вывести все должности
 ```
 http://localhost:8084/hr/positions
@@ -106,7 +106,7 @@ http://localhost:8084/hr/positions
 ```
 http://localhost:8084/hr/positions/n
 ```
-###POST
+### POST
 - добавить должность (json)
 ```
 http://localhost:8084/hr/positions
@@ -116,7 +116,7 @@ http://localhost:8084/hr/positions
     "position" : "Директор"
 }
 ```
-###UPDATE
+### UPDATE
 - корректировать n-ую должность (json)
 ```
 http://localhost:8084/hr/positions/n
@@ -126,7 +126,7 @@ http://localhost:8084/hr/positions/n
     "position" : "x"
 }
 ```
-###DELETE
+### DELETE
 - удалить n-ую должность
 ```
 http://localhost:8084/hr/positions/n
