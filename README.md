@@ -13,7 +13,7 @@ http://localhost:8084/hr/workers/n
 ```
 http://localhost:8084/hr/workers/working/n
 ```
-- получить всех работающих работников должности n
+- вывести всех работающих работников должности n
 ```
 http://localhost:8084/hr/workers/working/n
 ```
